@@ -73,6 +73,6 @@
     "postmark:10k"
   ],
   "scripts": {
-    "postdeploy": "manage.py syncdb --noinput"
+    "postdeploy": "python manage.py syncdb --noinput"
   }
 }
